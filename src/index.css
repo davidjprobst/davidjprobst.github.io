@@ -41,7 +41,7 @@ a:hover {
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   margin: 0;
   font-weight: 300;
   line-height: 28px;
@@ -216,13 +216,13 @@ main {
 }
 
 .project-skills-list {
-  margin: 16px 0 16px 0;
+  margin: 8px 0;
 }
 
 .project-skill {
   display: inline-block;
   padding: 2px 4px;
-  margin: 0 8px 0 0;
+  margin: 0 8px 8px 0;
   background-color: #EAEAEA;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;

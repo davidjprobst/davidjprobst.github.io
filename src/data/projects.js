@@ -12,6 +12,18 @@ export default [{
       { image: '', body: '**In order to protect the privacy of the client, the designs shown have been altered from their original form.**', alt:'' }
   ]
 }, {
+  coverImage: '/assets/images/mower-cover.jpg',
+  coverImageAlt: 'Connected Mower Cover Image',
+  title: 'Connected Mower',
+  skills: ['Data Visualization', 'UI & UX Design', 'iOS', 'IoT'],
+  intro: 'Organize and present data gathered by a Bluetooth powertrian monitor to provide useful insights to lawn mower users.',
+  slug: 'connected-mower',
+  info: [
+      { image: '/assets/images/mower-1.jpg', body: "This client had recently developed new technology that allowed them to gather real-time data from their riding mowers. Raw data needed to manipulated and presented to the user with infographics to providing an at-a-glance view of their mower.", alt:'Mower Dashboard Design' },
+      { image: '/assets/images/mower-2.jpg', body: "The mow session UI/UX is inspired by fitness tracking apps. It allows users to view real time information about their mowing sessions as well as a history of previous sessions. The collective mowing data is used to determine when the mower is due for maintenance.", alt:'Mower History' },
+      { image: '', body: '**In order to protect the privacy of the client, the designs shown have been altered from their original form.**', alt:'' }
+  ]
+}, {
   coverImage: '/assets/images/bubble-cover.jpg',
   coverImageAlt: 'Bubble-O-Meter Cover Image',
   title: 'Bubble-O-Meter',

@@ -6,10 +6,10 @@ export default [{
   intro: 'Create, view, track, and fulfill warranty claims across multiple organizations.',
   slug: 'warranty-tracker',
   info: [
-      { image: '/assets/images/warranty-1.jpg', body: 'This client had been using an outdated warranty tracking system for several years and was ready to transition to a custom product. The new design was to include all of the features of the old system while improving usability and modernizing the UI.', alt:'Warranties Table Designs' },
-      { image: '/assets/images/warranty-2.jpg', body: "Using insights gathered from users the UX architecture was reorganized with the goal of making information easier to digest and comprehend. Each page displays only the amount of information needed for the user's job to be done. Detailed information is available under additional menus if necessary but are largely hidden under the primary interface.", alt:'Claim Details Design' },
-      { image: '/assets/images/warranty-3.jpg', body: 'Ease of understanding was also prioritized in data entry flows. When creating a new claim in the system the user navigates through a wizard. Data entry is organized into groups of related information. Although this takes more clicks, each step is simplified for the user, making tedious data entry feel smooth.', alt:'Claim Creation Flow' },
-      { image: '', body: '**In order to protect the privacy of the client, the designs shown have been altered from their original form.**', alt:'' }
+      { image: '/assets/images/warranty-1.jpg', body: "As a UX Designer at DAIS Technology I worked on projects for many clients in the insurance industry. The design for these products needed to fulfill the needs of each client, but eventually needed to come together become DAIS's Internet of Insurance.", alt:'Warranties Table Designs' },
+      { image: '/assets/images/warranty-2.jpg', body: "For this project I served as the sole designer on a large scrum team. Working with the product team, I translated requirements into strongly defined designs. The handoff of these designs required close collaboration with architects and developers. We worked together to ensure designs were feasible and implemented correctly.", alt:'Claim Details Design' },
+      { image: '/assets/images/warranty-3.jpg', body: "We prioritized ease of data input and comprehension in the warranty tracker design. The client's previous warranty system displayed all data with equal weight. This cluttered the interface with data that was not useful, making comprehension difficult. The new design displays data only when needed to reduce cognitive load. We applied a similar solution for data entry tasks by dividing large flows into segments, creating perceived ease and incremental progress.", alt:'Claim Creation Flow' },
+      { image: '', body: '**To protect the privacy of the client, the designs shown have been altered from their original form.**', alt:'' }
   ]
 }, {
   coverImage: '/assets/images/mower-cover.jpg',
@@ -19,9 +19,9 @@ export default [{
   intro: 'Organize and present data gathered by a Bluetooth powertrian monitor to provide useful insights to lawn mower users.',
   slug: 'connected-mower',
   info: [
-      { image: '/assets/images/mower-1.jpg', body: "This client had recently developed new technology that allowed them to gather real-time data from their riding mowers. Raw data needed to manipulated and presented to the user with infographics to providing an at-a-glance view of their mower.", alt:'Mower Dashboard Design' },
-      { image: '/assets/images/mower-2.jpg', body: "The mow session UI/UX is inspired by fitness tracking apps. It allows users to view real time information about their mowing sessions as well as a history of previous sessions. The collective mowing data is used to determine when the mower is due for maintenance.", alt:'Mower History' },
-      { image: '', body: '**In order to protect the privacy of the client, the designs shown have been altered from their original form.**', alt:'' }
+      { image: '/assets/images/mower-1.jpg', body: "This Fortune 500 client had recently developed new technology to gather real-time data from their mowers. This data came in raw units that were hard for the average user to understand. Our team created an iOS app to transform this data and augment the mowing experience.", alt:'Mower Dashboard Design' },
+      { image: '/assets/images/mower-2.jpg', body: "Inspired by fitness tracking apps, the connected mower app allows users to track their mows in real time. The data from each mow is stored in a history. The collected data is used to calculate usage habits and predict repair schedules.", alt:'Mower History' },
+      { image: '', body: '**To protect the privacy of the client, the designs shown have been altered from their original form.**', alt:'' }
   ]
 }, {
   coverImage: '/assets/images/bubble-cover.jpg',

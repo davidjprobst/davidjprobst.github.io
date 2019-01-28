@@ -28,12 +28,13 @@ export default [{
   coverImageAlt: 'Bubble-O-Meter Cover Image',
   title: 'Bubble-O-Meter',
   skills: ['UX Architecture', 'Responsive Web Design', 'Project Management', 'HTML & CSS'],
-  intro: 'An e-commerce website helping a small business in Ohio market and sell advanced sceintific measurement tools.',
+  intro: 'An e-commerce website helping a small business in Ohio market and sell advanced scientific measurement tools.',
   slug: 'bubble-o-meter',
   info: [
-      { image: '/assets/images/bubble-1.jpg', body: 'Bubble-O-Meter wanted a complete redesign of their website; it had not been updated for over 10 years. The new design is the result of close collaboration with the client.', alt:'Product Page Wireframe' },
-      { image: '/assets/images/bubble-2.jpg', body: 'The site utilizes familiar e-commerce patterns to create a user-friendly shopping experience that customers are accustomed to.', alt:'Store Page Design' },
-      { image: '/assets/images/bubble-3.jpg', body: "Fully custom designs are applied to the flow rate calculator to add value to Bubble-O-Meter's flagship product. The calculator calculates flow rates in multiple units based on measurements taken by the user. This saves the user from having to do complex calculations on their own.", alt:'Calculator Page Design' },
-      { image: '/assets/images/bubble-4.jpg', body: 'As part of this redesign, the client wanted to use modern e-commerce tools and practices to easily expand product offerings, track inventory, record sales, and update content. The new website is built on Wordpress and utilizes Stripe and shipping plugins to automate much of the administrative work.', alt:'Misc Bubble-O-Meter Designs' }
+      { image: '/assets/images/bubble-2.jpg', body: 'In college, I created a couple of simple marketing websites to develop new skills (and make some extra money). As a result of this work I was referred to Bubble-O-Meter by an old friend in 2017. Bubble-O-Meter.com was in need of a redesign to meet modern e-commerce standards.', alt:'Product Page Wireframe' },
+      { image: '/assets/images/bubble-1.jpg', body: 'I acted as the designer and project manager for the Bubble-O-Meter website. It was my responsibility to make this project as simple as possible for the developer. My goal was to make sure he knew exactly what to build and exactly how to build it.', alt:'Store Page Design' },
+      { image: '/assets/images/bubble-3.jpg', body: "My design knowledge served mostly as a communication tool. I spent my time gathering requirements and setting expectations with the client. Through conceptual exploration, wireframe reviews, and high fidelity mocks, we were able to settle on a modern design that was suitable for the client and reasonable for development.", alt:'Calculator Page Design' },
+      { image: '/assets/images/bubble-4.jpg', body: "The website was designed for and built on Wordpress using integrations from Stripe, WooCommerce, and UPS. While these platforms limited design capabilities in some cases, they created a better developer and client experience by making the online store easy to set up and easy to edit.", alt:'Misc Bubble-O-Meter Designs' },
+      { image: '', body: "Bubble-O-Meter.com has been altered slightly since this redesign, but the structure and functionality of the website remains the same. The new site has helped simplify the company’s logistical processes and has improved the shopping experience for their customers.", alt:'' }
   ]
 }];

@@ -16,7 +16,7 @@ class Landing extends Component {
           <div id='intro' className="fixed-width">
             <h1 className='xs-text-padding title'><span className='white-text-background'>David Probst is a digital product designer from Chicago.</span></h1>
             <div id='home-image'>
-              <img src='/assets/images/home-image.jpeg'></img>
+              <img src='/assets/images/home-image.jpeg' alt="Profile"></img>
             </div>
             <h3 className='xs-text-padding'><span className='white-text-background'>David has had the opportunity to work with a range of companies - from Fortune 500 corporations to early stage start ups - helping to take their product vision to development.</span></h3>
             <h3 className='xs-text-padding'><span className='white-text-background'>He has experience designing responsive web products, iOS apps, conversational interfaces, and design systems.</span></h3>
@@ -48,13 +48,13 @@ class Landing extends Component {
         </div>
         }
         <div id="profile-links">
-          <a className="icon-link" href="//www.linkedin.com/in/davidjprobst/" target="_blank">
+          <a className="icon-link" href="//www.linkedin.com/in/davidjprobst/" target="_blank" rel="noopener noreferrer">
             <img src="../../assets/icons/linkedin.png" alt="LinkedIn Icon" />
           </a>
-          <a className="icon-link" href="//dribbble.com/_davidprobst" target="_blank">
+          <a className="icon-link" href="//dribbble.com/_davidprobst" target="_blank" rel="noopener noreferrer">
             <img src="../../assets/icons/dribbble.png" alt="Dribbble Icon" />
           </a>
-          <a className="icon-link" href="//github.com/davidjprobst/" target="_blank">
+          <a className="icon-link" href="//github.com/davidjprobst/" target="_blank" rel="noopener noreferrer">
             <img src="../../assets/icons/github.png" alt="GitHub Icon" />
           </a>
         </div>

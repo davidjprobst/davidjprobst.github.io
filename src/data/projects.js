@@ -12,6 +12,20 @@ export default [{
       { image: '', body: '**To protect the privacy of the client, the designs shown have been altered from their original form.**', alt:'' }
   ]
 }, {
+  coverImage: '/assets/images/lilac-cover.jpg',
+  coverImageAlt: 'Lilac Engagement Cover',
+  title: 'Lilac Engagement Rings',
+  skills: ['UX Architecture', 'UI & UX Design', 'Native Mobile', 'Material Design'],
+  intro: 'Redesigning the ring shopping expereince for digital natives.',
+  slug: 'lilac-engagement',
+  info: [
+      { image: '/assets/images/lilac-1.jpg', body: "The founders of Lilac wanted to reimagine how people buy engagement rings in the digital age.  Their vision was to create a mobile experience combining elements from social media and e-commerce to ensure the buyer got the perfect ring. To turn this vision into reality we followed an iterative design process: Sketch > Wireframe > Prototype > Test > Repeat.", alt:'Onboarding Wireframe' },
+      { image: '/assets/images/lilac-2.jpg', body: "", alt:'Home Wireframe' },
+      { image: '/assets/images/lilac-3.jpg', body: "Low-fidelity prototypes created through this process were presented to users and investors for feedback. This feedback helped us uncover user needs and design new solutions to improve the app.", alt:'Onboarding Interface' },
+      { image: '/assets/images/lilac-4.jpg', body: "", alt:'Home Interface' },
+      { image: '/assets/images/lilac-5.jpg', body: "After validating the concept in low-fidelity we created high-fidelity designs that followed Google’s Material Design standards. These designs were also used in a high-fidelity InVision prototype that was shown to potential customers and investors.", alt:'High Fidelity User Flow' },
+  ]
+}, {
   coverImage: '/assets/images/mower-cover.jpg',
   coverImageAlt: 'Connected Mower Cover Image',
   title: 'Connected Mower',

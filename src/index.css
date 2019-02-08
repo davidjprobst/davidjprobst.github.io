@@ -18,7 +18,7 @@ body {
 #container {
   display: flex;
   margin: auto;
-  max-width: 1400px;
+  max-width: 1200px;
 }
 
 .fixed-width {
@@ -161,14 +161,14 @@ main {
 
 #home-image {
   position: absolute;
-  margin: -48px 0 0 0;
+  margin: 0 0 0 0;
   z-index: -1;
   overflow: hidden;
   align-items: center;
   order: 2;
   top: 0;
   width: 100%;
-  max-width: 1304px;
+  max-width: 1104px;
 }
 
 #home-image img {
@@ -303,8 +303,8 @@ main {
 
 .project {
   display: flex;
-  max-width: 960px;
-  margin-left: 0px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .close-project {

@@ -18,6 +18,7 @@ body {
 #container {
   display: flex;
   margin: auto;
+  max-width: 1400px;
 }
 
 .fixed-width {
@@ -155,26 +156,26 @@ main {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%
+  width: 100%;
 }
 
 #home-image {
-  height: 615px;
-  width: 512px;
-  margin-top: -48px;
   position: absolute;
-  right: 48px;
+  margin: -48px 0 0 0;
   z-index: -1;
   overflow: hidden;
   align-items: center;
   order: 2;
   top: 0;
+  width: 100%;
+  max-width: 1304px;
 }
 
 #home-image img {
-  max-width: 100%;
-  min-height: 100%;
+  height: 615px;
   flex-shirnk: 0;
+  margin-left: auto;
+  float: right;
 }
 
 .white-text-background {

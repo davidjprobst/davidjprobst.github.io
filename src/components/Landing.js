@@ -14,12 +14,12 @@ class Landing extends Component {
         {
         <div className='content'>
           <div id='intro' className="fixed-width">
-            <h1 className='xs-text-padding title'><span className='white-text-background'>David Probst is a digital product designer from Chicago.</span></h1>
+            <h1 className='xs-text-padding title'><span className='white-text-background'>Taking the internet back</span></h1>
             <div id='home-image'>
               <img src='/assets/images/home-image.jpeg' alt="Profile"></img>
             </div>
-            <h3 className='xs-text-padding'><span className='white-text-background'>David has had the opportunity to work with a range of companies - from Fortune 500 corporations to early stage start ups - helping to take their product vision to development.</span></h3>
-            <h3 className='xs-text-padding'><span className='white-text-background'>He has experience designing responsive web products, iOS apps, conversational interfaces, and design systems.</span></h3>
+            <h3 className='xs-text-padding'><span className='white-text-background'>The internet is not what it once was. Call me nostalgic, call me a luddite. What used to be a place to learn and share has turned into a marketplace to steal and sell our attention.</span></h3>
+            <h3 className='xs-text-padding'><span className='white-text-background'>This is my personal website where I control what I share and how I share it.</span></h3>
             {/*} <Link to='/about' class='about-link xs-text-padding'>Read full bio ></Link> */}
           </div>
 

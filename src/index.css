@@ -173,7 +173,7 @@ main {
 
 #home-image img {
   height: 615px;
-  flex-shirnk: 0;
+  flex-shrink: 0;
   margin-left: auto;
   float: right;
 }
@@ -247,7 +247,7 @@ main {
 .project-cover-image img {
   width: auto;
   height: 100%;
-  flex-shirnk: 0;
+  flex-shrink: 0;
 }
 
 #profile-links {

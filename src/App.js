@@ -1,33 +1,34 @@
-import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
-import './App.css';
-import Nav from './components/Nav';
-import Landing from './components/Landing';
-import About from './components/About';
-import Project from './components/Project';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
+import React, { Component } from "react";
+import { Route } from "react-router-dom";
+import "./App.css";
+import Nav from "./components/Nav";
+import Landing from "./components/Landing";
+import About from "./components/About";
+import Project from "./components/Project";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 class App extends Component {
-
   render() {
     return (
-        <div className="App">
-          <section>
-            <Route path="/projects/:slug" component={Project} />
-          </section>
-          <div id="container">
-            <aside>
-              <Nav />
-            </aside>
-            <main>
-              <Route exact path="/" component={Landing} />
-              <Route exact path="/about" component={About} />
-              <Route exact path="/resume" component={Resume} />
-              <Route exact path="/contact" component={Contact} />
-            </main>
-          </div>
+      <div className="App">
+        <section>
+          <Route path="/projects/:slug" component={Project} />
+        </section>
+        <div id="container">
+          <aside>
+            <Nav />
+          </aside>
+          <main>
+            <Route exact path="/" component={Landing} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/contact" component={Contact} />
+          </main>
         </div>
+      </div>
     );
   }
 }

@@ -36,7 +36,7 @@ class Landing extends Component {
                   </li>
                   <p>{project.intro}</p>
                   <div className='project-link'>
-                    <Link to={`/projects/${project.slug}`} key={index}>See full project ></Link>
+                    <Link to={`/projects/${project.slug}`} key={index}>See full project</Link>
                   </div>
                 </div>
                 <div className='project-cover-image'>
@@ -48,14 +48,14 @@ class Landing extends Component {
         </div>
         }
         <div id="profile-links">
-          <a className="icon-link" href="//www.linkedin.com/in/davidjprobst/" target="_blank" rel="noopener noreferrer">
-            <img src="../../assets/icons/linkedin.png" alt="LinkedIn Icon" />
+          <a className="text-link" href="#" target="_blank" rel="noopener noreferrer">
+            Photos
           </a>
-          <a className="icon-link" href="//dribbble.com/_davidprobst" target="_blank" rel="noopener noreferrer">
-            <img src="../../assets/icons/dribbble.png" alt="Dribbble Icon" />
+          <a className="text-link" href="#" target="_blank" rel="noopener noreferrer">
+            Projects
           </a>
-          <a className="icon-link" href="//github.com/davidjprobst/" target="_blank" rel="noopener noreferrer">
-            <img src="../../assets/icons/github.png" alt="GitHub Icon" />
+          <a className="text-link" href="#" target="_blank" rel="noopener noreferrer">
+            Music
           </a>
         </div>
       </section>

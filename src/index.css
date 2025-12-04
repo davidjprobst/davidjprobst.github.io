@@ -255,7 +255,7 @@ main {
   bottom: 0;
   right: 48px;
   height: 48px;
-  display: block;
+  display: flex;
 }
 #profile-links img {
   width: 24px;
@@ -269,6 +269,14 @@ main {
   color: #ffffff;
   margin-left: 8px;
   display: inline-block;
+}
+
+.text-link {
+  background-color: #101010;
+  color: #ffffff;
+  margin-right: 8px;
+  padding: 1rem;
+  justify-content: center;
 }
 
 .icon-link:hover img {

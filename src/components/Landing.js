@@ -61,7 +61,7 @@ class Landing extends Component {
         }
         <div id="profile-links">
           <Link
-            to="#"
+            to={`/photos`}
             className="text-link"
             href="#"
             target="_blank"

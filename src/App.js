@@ -8,6 +8,7 @@ import Project from "./components/Project";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
+import Photos from "./components/Photos";
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/resume" component={Resume} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/photos" component={Photos} />
           </main>
         </div>
       </div>
